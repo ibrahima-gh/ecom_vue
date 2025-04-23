@@ -1,10 +1,10 @@
 <template>
-<main class="flex justify-center items-center h-screen bg-gray-100">
-  <div class="bg-white p-8 rounded-lg shadow-lg w-96">
+<main class="flex justify-center items-center h-screen">
+  <div class="bg-zinc-800 p-8 rounded-lg shadow-lg w-96 text-white/70">
     <h1 class="text-2xl font-bold text-center mb-6">Inscription</h1>
     <form @submit.prevent="register">
       <div class="mb-4">
-        <label for="name" class="block text-sm font-medium text-gray-700">Nom</label>
+        <label for="name" class="block text-sm font-medium text-white/60">Nom</label>
         <input
           type="text"
           id="name"
@@ -14,7 +14,7 @@
         />
       </div>
       <div class="mb-4">
-        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+        <label for="email" class="block text-sm font-medium text-white/60">Email</label>
         <input
           type="email"
           id="email"
@@ -24,7 +24,7 @@
         />
       </div>
       <div class="mb-6">
-        <label for="password" class="block text-sm font-medium text-gray-700">Mot de passe</label>
+        <label for="password" class="block text-sm font-medium text-white/60">Mot de passe</label>
         <input
           type="password"
           id="password"

@@ -1,6 +1,6 @@
 <template>
   <header class="m-4 justify-between items-center flex flex-col gap-4">
-    <RouterLink to="/" class="bg-[#262629] text-white/80 px-4 py-2 rounded-lg">Acceuil</RouterLink>
+    <RouterLink to="/" class="bg-[#262629] text-white/80 px-4 py-2 rounded-lg">Accueil</RouterLink>
     <nav class="flex gap-3">
       <span v-if="store.isAuthenticated" class="text-white py-2 text-xl"> Bienvenu, {{ store.user.username }}</span>
       <RouterLink v-if="!store.isAuthenticated" to="/login" class="bg-[#262629] text-white/80 px-4 py-2 rounded-lg">Connexion</RouterLink>
